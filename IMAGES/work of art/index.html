@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modern Magazine</title>
+	<link rel="stylesheet" href="../../mail.css">
+</head>
+<body>
+	<script src="../main.js"></script>
+	<div class="magazine-container">
+		<div class="section">
+			<div class="section-label">Kitchen</div>
+			<!-- Row 1: 2 images side by side -->
+			<div class="row row-2side">
+				<img src="https://picsum.photos/seed/kitchen1/600/400" alt="Kitchen 1">
+				<img src="https://picsum.photos/seed/kitchen2/600/400" alt="Kitchen 2">
+			</div>
+			<!-- Row 2: 1 image + paragraph next to it -->
+			<div class="row row-image-text">
+				<img src="https://picsum.photos/seed/kitchen3/500/400" alt="Kitchen Row 2 Image">
+				<div class="text-block">
+					<h2>Kitchen Feature</h2>
+					<p>This is a sample paragraph describing the kitchen feature image. Add your own content here to highlight the story or article for this section of your magazine.</p>
+				</div>
+			</div>
+			<!-- Row 3: 2 vertical images side by side -->
+			<div class="row row-vertical">
+				<img src="https://picsum.photos/seed/kitchen4/400/600" alt="Kitchen Row 3 Image 1">
+				<img src="https://picsum.photos/seed/kitchen5/400/600" alt="Kitchen Row 3 Image 2">
+			</div>
+		</div>
+		<hr class="divider">
+		<div class="section">
+			<div class="section-label bathroom">Bathroom</div>
+			<div class="row" style="align-items: stretch; min-height: 1000px;">
+				<div style="display: flex; flex-direction: column; gap: 24px; width: 50%;">
+					<div style="display: flex; gap: 24px;">
+						<img src="https://picsum.photos/seed/bath1/400/600" alt="Bathroom 1" style="width: 48%; height: 320px; object-fit: cover; border-radius: 10px;">
+						<img src="https://picsum.photos/seed/bath2/400/600" alt="Bathroom 2" style="width: 48%; height: 320px; object-fit: cover; border-radius: 10px;">
+					</div>
+					<div style="display: flex; gap: 24px;">
+						<img src="https://picsum.photos/seed/bath3/400/600" alt="Bathroom 3" style="width: 48%; height: 320px; object-fit: cover; border-radius: 10px;">
+						<img src="https://picsum.photos/seed/bath4/400/600" alt="Bathroom 4" style="width: 48%; height: 320px; object-fit: cover; border-radius: 10px;">
+					</div>
+					<div style="display: flex; justify-content: center; margin-top: 32px;">
+						<img src="https://picsum.photos/seed/bath5/400/600" alt="Bathroom 5" style="width: 90%; height: 320px; object-fit: cover; border-radius: 10px;">
+					</div>
+				</div>
+				<div style="width: 50%; display: flex; flex-direction: column; justify-content: stretch; padding-left: 32px;">
+					<div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+						<p style="font-size: 1.1rem; color: #444; line-height: 1.7; height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+							This is a long paragraph describing the bathroom section. It starts at the very top and continues all the way down, providing details, stories, or information about the images shown on the left. The text fills the right side of the section from the top of the first image to the bottom of the last image for a balanced, magazine-style layout.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="divider">
+		<div class="section">
+			<div class="section-label promotion">Promotion</div>
+			<!-- Promotion: left (1 image, 4-column paragraph, 1 image), right (tall image) -->
+			<div class="row" style="align-items: stretch; min-height: 600px;">
+				<div style="display: flex; flex-direction: column; gap: 32px; width: 50%;">
+					<img src="https://picsum.photos/seed/promo1/600/220" alt="Promotion Top" style="width: 100%; height: 180px; object-fit: cover; border-radius: 10px;">
+					<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px;">
+						<div><p style="font-size: 1.1rem; color: #444; line-height: 1.7; margin: 0;">Column 1: Add your promotional content here for your magazine readers.</p></div>
+						<div><p style="font-size: 1.1rem; color: #444; line-height: 1.7; margin: 0;">Column 2: Add more details or offers in this column for your audience.</p></div>
+						<div><p style="font-size: 1.1rem; color: #444; line-height: 1.7; margin: 0;">Column 3: Highlight special features, discounts, or news here.</p></div>
+						<div><p style="font-size: 1.1rem; color: #444; line-height: 1.7; margin: 0;">Column 4: Use this space for additional information or a call to action.</p></div>
+					</div>
+					<img src="https://picsum.photos/seed/promo2/600/220" alt="Promotion Bottom" style="width: 100%; height: 180px; object-fit: cover; border-radius: 10px;">
+				</div>
+				<div style="width: 50%; display: flex; align-items: stretch; justify-content: flex-end; padding-left: 32px;">
+					<img src="https://picsum.photos/seed/promo-tall/200/600" alt="Promotion Tall" style="width: 100%; max-width: 160px; height: 600px; object-fit: cover; border-radius: 10px;">
+				</div>
+			</div>
+		</div>
+		<hr class="divider">
+		<div class="section">
+			<div class="section-label work">Work of Art</div>
+			<!-- Row 1: 1 image full width -->
+			<div class="row">
+				<img src="https://picsum.photos/seed/art1/600/400" alt="Work of Art 1">
+			</div>
+			<!-- Row 2: 1 image + paragraph next to it -->
+			<div class="row row-image-text">
+				
+				
+			</div>
+			<!-- Row 3: 2 vertical images side by side -->
+			<div class="row row-vertical">
+				<img src="https://picsum.photos/seed/art3/400/600" alt="Work of Art 3">
+				<img src="https://picsum.photos/seed/art4/400/600" alt="Work of Art 4">
+			</div>
+		</div>
+		<hr class="divider">
+		<div class="section">
+			<div class="section-label style">Style Modern House</div>
+			<!-- Row 1: Image (unchanged) -->
+			<div class="row">
+				<img src="https://picsum.photos/seed/style1/600/400" alt="Style Modern Home 1">
+			</div>
+			<!-- Row 2: Left (two stacked paragraphs and image), Right (last paragraph) -->
+			<div class="row" style="align-items: flex-start;">
+				<div style="width: 60%; display: flex; flex-direction: column; gap: 18px;">
+					<div style="display: flex; gap: 18px;">
+						<div class="text-block" style="width: 50%;">
+							<h2 style="font-size: 1.1rem;">Modern Living</h2>
+							<p style="font-size: 0.95rem;">Experience the elegance of modern house design with open spaces and stylish interiors. Discover how thoughtful architecture and contemporary decor can transform a house into a stylish, comfortable home.</p>
+						</div>
+						<div class="text-block" style="width: 50%;">
+							<h2 style="font-size: 1.1rem;">Design Philosophy</h2>
+							<p style="font-size: 0.95rem;">Modern homes blend functionality with beauty, using clean lines, natural light, and innovative materials. This approach creates inviting spaces that are both practical and visually stunning.</p>
+						</div>
+					</div>
+					<img src="https://picsum.photos/seed/style2/600/400" alt="Style Modern Home 2" style="width: 100%; margin-top: 8px;">
+				</div>
+				<div style="width: 40%; padding-left: 32px; display: flex; flex-direction: column; justify-content: flex-start;">
+					<div class="text-block" style="height: 100%; min-height: 100%; display: flex; flex-direction: column; justify-content: flex-start;">
+						<h2 style="font-size: 1.1rem;">Future Trends</h2>
+						<p style="font-size: 0.95rem;">As modern home design evolves, expect to see even more integration of smart technology, eco-friendly materials, and flexible spaces that adapt to changing lifestyles. The future of stylish living is both sustainable and innovative, blending comfort with cutting-edge design across every room.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="divider">
+		<div class="section">
+			<div class="section-label good" style="transform: rotate(180deg); writing-mode: vertical-rl; text-align: center; right: 24px; left: auto; top: 24px; font-size: 0.65rem; padding: 2px 6px;">Good Gracious Glamour</div>
+			<!-- Row 1: Two paragraphs side by side -->
+			<div class="row" style="align-items: flex-start;">
+				<div class="text-block" style="width: 50%;">
+					<h2 style="font-size: 1.1rem;">Glamour & Grace</h2>
+					<p style="font-size: 0.95rem;">Step into a world where glamour meets grace. This section explores the beauty of elegant living, from dazzling interiors to refined details that make every space shine.</p>
+				</div>
+				<div class="text-block" style="width: 50%;">
+					<h2 style="font-size: 1.1rem;">Chic Inspirations</h2>
+					<p style="font-size: 0.95rem;">Find inspiration in the latest trends and timeless classics. Discover how to blend bold statements with subtle touches for a home that radiates sophistication and charm.</p>
+				</div>
+			</div>
+			<!-- Row 2: Three vertical images -->
+			<div class="row" style="gap: 24px; margin-top: 32px;">
+				<img src="https://picsum.photos/seed/glam1/300/500" alt="Glamour Vertical 1" style="width: 32%; height: 340px; object-fit: cover; border-radius: 10px;">
+				<img src="https://picsum.photos/seed/glam2/300/500" alt="Glamour Vertical 2" style="width: 32%; height: 340px; object-fit: cover; border-radius: 10px;">
+				<img src="https://picsum.photos/seed/glam3/300/500" alt="Glamour Vertical 3" style="width: 32%; height: 340px; object-fit: cover; border-radius: 10px;">
+			</div>
+			<!-- Row 3: One vertical and one horizontal image -->
+			<div class="row" style="gap: 24px; margin-top: 32px;">
+				<img src="https://picsum.photos/seed/glam4/300/500" alt="Glamour Vertical 4" style="width: 32%; height: 340px; object-fit: cover; border-radius: 10px;">
+				<img src="https://picsum.photos/seed/glam5/500/300" alt="Glamour Horizontal 1" style="width: 66%; height: 220px; object-fit: cover; border-radius: 10px; align-self: flex-end;">
+			</div>
+			<!-- Row 4: Contact, rotated 180 degrees and vertical text at the bottom -->
+			<div class="row" style="justify-content: center; align-items: flex-end; margin-top: 48px; min-height: 120px; gap: 18px;">
+				<div style="transform: rotate(180deg); background: #f08080; color: #fff; padding: 4px 10px; border-radius: 16px; font-size: 0.9rem; font-weight: bold; box-shadow: 0 4px 16px rgba(0,0,0,0.10); letter-spacing: 2px; display: inline-block; white-space: pre; text-align: center; width: 32px; min-width: 0;">
+				
+				</div>
+				<div style="background: #fffbe7; color: #444; padding: 8px 10px; border-radius: 10px; font-size: 0.92rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-width: 32px; min-width: 0; white-space: pre; text-align: center; transform: rotate(180deg); display: inline-block;">
+		       how about us
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

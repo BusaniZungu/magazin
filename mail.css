@@ -1,0 +1,18 @@
+body { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f4f4f4; }
+.magazine-container { max-width: 1200px; width: 96vw; margin: 40px auto; background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); padding: 32px 32px; display: flex; flex-direction: column; gap: 56px; }
+.section { position: relative; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); padding: 48px 40px; margin-bottom: 0; }
+.section-label { position: absolute; top: 24px; right: 40px; background: #ffb347; color: #222; font-weight: bold; font-size: 1.2rem; padding: 8px 24px; border-radius: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); letter-spacing: 1px; z-index: 10; }
+.section-label.bathroom { background: #87ceeb; }
+.section-label.promotion { background: #f08080; }
+.section-label.work { background: #b39ddb; }
+.section-label.style { background: #ffd700; }
+.section-label.good { background: #90ee90; }
+.row { display: flex; gap: 24px; align-items: center; margin-top: 40px; }
+.row img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.row-2side img { width: 48%; }
+.row-image-text img { width: 45%; margin-right: 24px; }
+.row-image-text .text-block { width: 55%; }
+.row-vertical img { width: 48%; height: 320px; }
+.text-block { display: flex; flex-direction: column; gap: 10px; }
+.divider { border: none; border-top: 3px solid #eee; margin: 56px 0; width: 100%; cursor: pointer; transition: background 0.2s; }
+.divider:hover { background: #ffe3e3; }
